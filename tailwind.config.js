@@ -9,6 +9,12 @@ export default {
         "./error.vue",
     ],
     theme: {
+        screens: {
+           'lg':{'max': '1440px'},
+            'mb':{'max':'430px'},
+            'lt':{'max':'1024px'},
+            'min-mb': '431px',
+        },
         extend: {
             colors: {
                 DG: '#263800',

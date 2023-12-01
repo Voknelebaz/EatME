@@ -1,13 +1,13 @@
 <template>
-  <header class="py-10 max-[425px]:px-4 max-[425px]:py-6">
-    <div class="max-w-[1435px] gap-6 mx-auto flex justify-between ">
-      <IconsBurgerMenu class="hidden max-[425px]:block" v-on:click="showMobileMenu=!showMobileMenu"></IconsBurgerMenu>
-      <MobileMenu class="min-[425px]:hidden overflow-hidden mt-[50px]" v-show="showMobileMenu"></MobileMenu>
-      <NuxtLink to="/home">
+  <header class="py-10 lg:px-4 mb:py-6">
+    <div class="max-w-[1435px] gap-6 mx-auto flex justify-between">
+      <IconsBurgerMenu class="hidden mb:block" v-on:click="showMobileMenu=!showMobileMenu"></IconsBurgerMenu>
+      <MobileMenu class="min-mb:hidden overflow-hidden mt-[50px]" v-show="showMobileMenu"></MobileMenu>
+      <NuxtLink to="#">
         <IconsLogo/>
       </NuxtLink>
-      <Menu class="max-[425px]:hidden"></Menu>
-      <IconsPhone class="hidden max-[425px]:block"></IconsPhone>
+      <Menu class="mb:hidden"></Menu>
+      <IconsPhone class="hidden mb:block"></IconsPhone>
     </div>
   </header>
 </template>

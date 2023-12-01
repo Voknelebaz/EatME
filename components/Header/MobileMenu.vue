@@ -1,6 +1,7 @@
 <template>
   <div class="flex flex-col absolute w-[300px] bg-PYL ">
-    <nav class="pl-4 mb-[220px]">
+
+    <nav class="pl-4 mb-[150px]">
       <ul class="flex flex-col gap-y-4 gap-x-4 text-center items-start">
         <li v-for="item in items">
           <NuxtLink class="link__item" to="#"> {{ item.name }}</NuxtLink>
@@ -10,7 +11,7 @@
     <div>
       <div class="mb-[32px] pl-4">
         <div class="flex items-center mb-6">
-          <IconsPhone/>
+          <IconsPhone class="w-[18px] h-[18px]"/>
           <NuxtLink class="ml-[12px]" to="tel:+380999009900">099-900-99-00</NuxtLink>
         </div>
         <div class="flex items-center mb-6">
@@ -32,7 +33,6 @@
     </div>
   </div>
 </template>
-
 <script setup lang="ts">
 
 const items = [

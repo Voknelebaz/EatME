@@ -6,13 +6,14 @@ const items = [
   {name: 'Calculator'},
   {name: 'Delivery'},
   {name: 'Feedback'},
-  {name: 'Contacts'}];
+  {name: 'Contacts'}
+];
 </script>
 <template>
   <nav>
-    <ul class="flex text-center flex-wrap">
-      <li class="mx-4 first:ml-0 last:mr-0 " v-for="item in items">
-        <NuxtLink class="link__item " to="/home"> {{ item.name }}</NuxtLink>
+    <ul class="flex flex-wrap items-center">
+      <li class="mx-4 first:ml-0 last:mr-0 lt:ml-0 mb-2" v-for="item in items">
+        <NuxtLink class="link__item " to="#"> {{ item.name }}</NuxtLink>
       </li>
     </ul>
   </nav>
