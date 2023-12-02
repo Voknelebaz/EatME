@@ -11,8 +11,10 @@ export default {
     theme: {
         screens: {
            'lg':{'max': '1440px'},
-            'mb':{'max':'430px'},
+            'mt':{'max':'1200px'},
             'lt':{'max':'1024px'},
+            'st':{'max':'950px'},
+            'mb':{'max':'430px'},
             'min-mb': '431px',
         },
         extend: {

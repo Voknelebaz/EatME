@@ -4,7 +4,7 @@
       <IconsBurgerMenu class="hidden mb:block" v-on:click="showMobileMenu=!showMobileMenu"></IconsBurgerMenu>
       <MobileMenu class="min-mb:hidden overflow-hidden mt-[50px]" v-show="showMobileMenu"></MobileMenu>
       <NuxtLink to="#">
-        <IconsLogo/>
+        <IconsLogo  class="fill-LG hover:fill-AM"/>
       </NuxtLink>
       <Menu class="mb:hidden"></Menu>
       <IconsPhone class="hidden mb:block"></IconsPhone>
