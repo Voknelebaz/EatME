@@ -1,7 +1,6 @@
 <template>
-  <div class="flex flex-col absolute w-[300px] bg-PYL ">
-
-    <nav class="pl-4 mb-[150px]">
+  <div class="flex flex-col absolute w-[300px] bg-PYL z-50 left-0">
+    <nav class="pl-4 mb-[150px] ">
       <ul class="flex flex-col gap-y-4 gap-x-4 text-center items-start">
         <li v-for="item in items">
           <NuxtLink class="link__item" to="#"> {{ item.name }}</NuxtLink>

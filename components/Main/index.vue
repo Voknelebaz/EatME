@@ -1,7 +1,7 @@
 <template>
-  <div class="flex items-center justify-between max-w-[1600px] mx-auto space-x-8 mb:space-x-0 mt:pr-[20px]">
+  <div class="flex items-center justify-between max-w-[1600px] mx-auto space-x-8 mb:pr-0 mb:space-x-0" >
     <LeftSide class="mb:hidden"></LeftSide>
-    <Center ></Center>
+    <Center/>
     <RightSide class="mb:hidden"></RightSide>
   </div>
 </template>

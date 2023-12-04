@@ -10,10 +10,10 @@ export default {
     ],
     theme: {
         screens: {
-           'lg':{'max': '1440px'},
+            'lg':{'max': '1440px'},
             'mt':{'max':'1200px'},
             'lt':{'max':'1024px'},
-            'st':{'max':'950px'},
+            't':{'max':'768px'},
             'mb':{'max':'430px'},
             'min-mb': '431px',
         },

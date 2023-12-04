@@ -15,7 +15,7 @@
       </NuxtLink>
     </div>
     <div>
-      <p class="side__text rotate__text rotate-180 m-0 hover:">Follow Us</p>
+      <p class="side__text rotate__text rotate-180 m-0 ">Follow Us</p>
     </div>
   </div>
 </template>
