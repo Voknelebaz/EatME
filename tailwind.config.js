@@ -23,6 +23,7 @@ export default {
                 LG: '#46620B',
                 NG: '#05A801',
                 AM: '#ECBD00',
+                PYD:'#FFF6C9',
                 PYL: '#FFFBE5',
                 PWL: '#FFFCEC',
             },

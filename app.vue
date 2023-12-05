@@ -1,15 +1,4 @@
-<script>
-import MobileMenu from "~/components/Header/MobileMenu.vue";
-
-export default {
-  components: {MobileMenu},
-  data() {
-    return {
-      showMobileMenu: false
-
-    }
-  }
-}
+<script setup lang="ts">
 </script>
 <template>
   <div>

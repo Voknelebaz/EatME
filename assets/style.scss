@@ -53,9 +53,17 @@ body{
   @apply mb:text-LG mb:text-4xl/[48px] mb:font-extrabold
 }
 
+.advantage__text{
+  @apply text-DG text-right text-lg/[32px]
+}
 
+.advantage__card{
+  @apply text-DG text-center text-lg/[24px] font-normal
+}
 
-
+.advantage__card-title{
+  @apply text-DG text-center text-lg/[24px] font-semibold uppercase
+}
 
 
 
