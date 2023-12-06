@@ -1,8 +1,8 @@
 <template>
-  <div class="absolute right-0 bottom-0 ">
-    <h2 class="text-center title__unique pb-[10px]">YOUR DELIVERY TO A HEALTHY LIFE</h2>
-    <div class=" flex flex-col items-end bg-PYD rounded-tl-[327px] pt-[14px] pl-[146px] pr-[233px] pr-auto pb-[80px]">
-      <div class="max-w-[852px] mb-[64px]">
+  <div class="absolute bottom-0 right-0">
+    <h2 class="text-center title__unique pb-[10px] pl-[85px]">YOUR DELIVERY TO A HEALTHY LIFE</h2>
+    <div class=" flex flex-col items-end bg-PYD rounded-tl-[327px] pt-[14px] pl-[146px] pr-[233px] pr-auto pb-[80px] lt:pr-[50px]">
+      <div class="max-w-[852px] mb-[64px] z-40 lt:mb-[20px]">
         <p class="advantage__text mb-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla nulla iaculis elementum cursus feugiat nibh
           aliquam pellentesque congue. Cursus bibendum velit eu dolor mattis mollis magnis odio. Laoreet nunc turpis
@@ -17,7 +17,7 @@
         </p>
       </div>
 
-      <div class="flex space-x-4 items-center">
+      <div class="flex space-x-4 items-center z-40  lg:justify-between lt:space-x-0 lg:space-y-4">
         <div class="flex flex-col items-center text-center max-w-[238px] bg-PWL rounded-[15px] py-[32px] px-[12px] ">
           <div class="mb-[24px]">
             <IconsFood/>
